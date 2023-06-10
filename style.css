@@ -1,27 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: aquamarine;
-}
-
-.in-list{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    padding: 30px;
-    gap: 10px;
+body {
+  background-color: rgba(142, 203, 231, 0.774);
 }
 
-.btn{
-    background-color: rgb(32, 143, 187);
-    color: rgb(216, 216, 73);
-    width: 80px;
-    
+.addlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 30px;
+  gap: 10px;
+}
+#form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.input-box{
-    width: 25%;
+#btn {
+  background-color: rgb(32, 143, 187);
+  color: yellow;
+  width: 80px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  margin: 6px;
+}
+
+#input-box {
+  width: 100%;
+  color: rgb(216, 58, 92);
+  background-color: rgb(139, 207, 130);
+  border: none;
+  padding: 4px;
+  border-radius: 10px;
+  margin: 4px;
+}
+
+.task-header {
+  color: rgba(209, 228, 43, 0.89);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.task-box {
+  border: none;
+  height: auto;
+  width: 500px;
+  padding: 1.5%;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.61);
+  color: aliceblue;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4%;
 }

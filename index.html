@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do-List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="in-list">
-        <h4>Enter a list of work</h4><input class="input-box" type="text"/>
-        <button class="btn">submit</button>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="addlist">
+      <h3>Make a list of tasks</h3>
+      <form id="form">
+        <input id="input-box" type="text" />
+        <button id="btn" type="submit">submit</button>
+      </form>
+
+      <div class="task-box abcd">
+        <div class="task-header">Here is your's taks to be completed..</div>
+        <ol class="list" id="list"></ol>
+      </div>
     </div>
-</body>
+  </body>
 </html>
